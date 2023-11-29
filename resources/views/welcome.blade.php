@@ -54,18 +54,18 @@
         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-secondary">
         <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
           <a
-          href="contact.html"
+          href="{{ route('contact') }}"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover"
         >
           <span class="fs-5"><i class="bi bi-envelope nav-logo"></i></span></a>
-             <a href="index.html"
+             <a href="{{ route('home') }}"
              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover">
              Ahmad.Developer</a>
             </div>
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="https://dribbble.com/" class="nav-link text-white-50">Dribbble</a></li>
           <li class="nav-item"><a href="https://www.linkedin.com/in/ahmad-sadati-208566292" class="nav-link text-white-50">Linked in</a></li>
-          <li class="nav-item"><a href="https://Instagram.com/" class="nav-link text-white-50">Instagram</a></li>
+          <li class="nav-item"><a href="https://instagram.com/ahmaddeveloper2023?igshid=MzMyNGUyNmU2YQ==" class="nav-link text-white-50">Instagram</a></li>
         </ul>
       </header>
     </div>
@@ -87,7 +87,7 @@
             Turning your ideas<br />
             into codes.
           </h1>
-          <a class="btn btn-outline-secondary" href="lastshots.html">
+          <a class="btn btn-outline-secondary" href="{{ route('lastshots') }}">
             Last shots<i class="bi bi-arrow-up-right"></i>
           </a>
         </div>
@@ -185,8 +185,7 @@
     <div class="container text-center my-5">
       <h2 class="pb-4 mb-4 txtgrdint1">Tell me about your<br>
       next project</h2>
-      <a
-        href="contact.html"
+      <a href="{{ route('contact') }}"
         type="button"
         class="show-btn btn btn-outline-secondary"
         data-bs-toggle="modal"
@@ -205,7 +204,7 @@
           <div class="py-3 py-sm-0 text-white-50">
             <a class="icn-hver1" href="https://dribbble.com/"><i class="bi bi-dribbble"></i></a>
             <span class="mx-2">/</span>
-            <a class="icn-hver2" href="https://Instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a class="icn-hver2" href="https://instagram.com/ahmaddeveloper2023?igshid=MzMyNGUyNmU2YQ=="><i class="bi bi-instagram"></i></a>
             <span class="mx-2">/</span>
             <a class="icn-hver3" href="https://github.com/ahmad-sadati/"><i class="bi bi-github"></i></a>
             <span class="mx-2">/</span>
