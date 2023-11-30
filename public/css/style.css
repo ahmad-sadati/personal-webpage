@@ -1,3 +1,6 @@
+body {
+  background-image: url(../img/dots.svg)
+}
 .txtgrdint1{
   background: -webkit-linear-gradient(135deg, transparent 0%, #ffffff 100%);
   -webkit-background-clip: text;
