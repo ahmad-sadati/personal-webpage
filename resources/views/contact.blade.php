@@ -54,11 +54,11 @@
         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-secondary">
         <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
           <a
-          href="{{ route('contact') }}"
+          href="/contact"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover"
         >
           <span class="fs-5"><i class="bi bi-envelope nav-logo"></i></span></a>
-             <a href="{{ route('home') }}"
+             <a href="/"
              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover">
              Ahmad.Developer</a>
             </div>

@@ -54,11 +54,11 @@
         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-secondary">
         <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
           <a
-          href="{{ route('contact') }}"
+          href="/contact"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover"
         >
           <span class="fs-5"><i class="bi bi-envelope nav-logo"></i></span></a>
-             <a href="{{ route('home') }}"
+             <a href="/"
              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover">
              Ahmad.Developer</a>
             </div>
@@ -87,7 +87,7 @@
             Turning your ideas<br />
             into codes.
           </h1>
-          <a class="btn btn-outline-secondary" href="{{ route('lastshots') }}">
+          <a class="btn btn-outline-secondary" href="/lastshots">
             Last shots<i class="bi bi-arrow-up-right"></i>
           </a>
         </div>
@@ -185,7 +185,7 @@
     <div class="container text-center my-5">
       <h2 class="pb-4 mb-4 txtgrdint1">Tell me about your<br>
       next project</h2>
-      <a href="{{ route('contact') }}"
+      <a href="/contact"
         type="button"
         class="show-btn btn btn-outline-secondary"
         data-bs-toggle="modal"
