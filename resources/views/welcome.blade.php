@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <link
@@ -45,7 +45,7 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-  </head>
+  </head> --}}
 
   <body class="bg-dark text-light">
           <!-- header -->
@@ -193,7 +193,7 @@
       >
           Get In Touch <i class="bi bi-envelope-fill me-1"></i
       ></a>
-      <!-- footer -->
+      {{-- <!-- footer -->
       <div class="container py-5">
         <div
           class="d-flex flex-column flex-sm-row justify-content-between py-4 footer text-center"
@@ -218,4 +218,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-</html>
+</html> --}}
