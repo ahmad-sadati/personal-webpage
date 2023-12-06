@@ -1,4 +1,6 @@
 @extends('layouts.main')
+@section('title' , 'Home')
+@section('page' , 'Ahmad.developer')
 @section('content')
 <!-- main -->
     <section class="my-5">
@@ -117,10 +119,7 @@
       <h2 class="pb-4 mb-4 txtgrdint1">Tell me about your<br>
       next project</h2>
       <a href="/contact"
-        type="button"
         class="show-btn btn btn-outline-secondary"
-        data-bs-toggle="modal"
-        data-bs-target="#modal-ex"
       >
           Get In Touch <i class="bi bi-envelope-fill me-1"></i
       ></a>

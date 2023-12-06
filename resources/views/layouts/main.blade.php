@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ahmad</title>
+    <title>@yield('title')</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
@@ -32,7 +32,7 @@
                     <span class="fs-5"><i class="bi bi-envelope nav-logo"></i></span></a>
                 <a href="/"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white-50 hover">
-                    Ahmad.Developer</a>
+                    @yield('page')</a>
             </div>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="https://dribbble.com/" class="nav-link text-white-50">Dribbble</a></li>
