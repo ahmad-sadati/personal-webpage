@@ -84,6 +84,50 @@ div header ul li{
 .icn-hver4{
   transition: all .7s!important;
 }
+input {
+  width: 100%;
+  padding: 5px 14px;
+  border: 2px solid #064d71!important;
+  margin-bottom: 10px;
+  background-color: rgba(63, 69, 79, 0.258)!important;
+  outline: none;
+  color: #d8d8d8!important;
+  font-size: 14px;
+}
+input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(56, 56, 56, 0.258)!important;
+}
+input::placeholder{
+  color: rgba(206, 206, 206, 0.93)!important;
+}
+input::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(206, 206, 206, 0.93)!important;
+}
+textarea {
+  width: 100%;
+  padding: 5px 14px;
+  border: 2px solid #064d71!important;
+  margin-bottom: 10px;
+  background-color: rgba(63, 69, 79, 0.258)!important;
+  outline: none;
+  color: #d8d8d8!important;
+  font-size: 14px;
+}
+textarea:focus {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(56, 56, 56, 0.258)!important;
+}
+textarea::placeholder{
+  color: rgba(206, 206, 206, 0.93)!important;
+  
+}
+textarea::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(206, 206, 206, 0.93)!important;
+}
+.mysub{
+  background-color: #064d71!important;
+}
 @font-face {
   font-family: 'Butler';
   src: url('fonts/Butler-UltraLight.woff2') format('woff2'),
