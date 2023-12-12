@@ -1,5 +1,6 @@
 <?php
-
+use App\Http\Controllers\ProfileController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,13 @@ Route::get('/lastshots', function () {
 });
 Route::get('/contact', function () {
     return view('contact');
+});
+Route::post('/send-message', function (Request $request) {
+    return
+    '<ul>' .
+    '<li>' . $request->email . '</li>' .
+    '<li>' . $request->phone . '</li>' .
+    '<li>' . $request->fullName . '</li>' .
+    '<li>' . $request->message . '</li>' .
+        '</ul>';
 });
